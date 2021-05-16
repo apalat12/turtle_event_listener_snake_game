@@ -9,9 +9,9 @@
 from turtle import Screen
 # from random import randint
 import time
-from snake_class import Snake
-from food import Food
-from scoreboard import Score
+from snake_class_new import Snake
+from food_new import Food
+from scoreboard_new import Score
 
 screen = Screen()
 screen.setup(600, 600)
@@ -52,7 +52,7 @@ while Game_ON:
     time.sleep(0.05)
     snake.move()
     if snake.head.distance(food) < 15:
-        food.reset()
+        # food.reset()
         food.refresh()
         snake.extend()
         score.keep_score()
