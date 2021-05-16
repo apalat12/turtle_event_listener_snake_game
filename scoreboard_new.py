@@ -1,5 +1,5 @@
 from turtle import Turtle
-<<<<<<< HEAD
+
 
 with open("high_score_file.txt", mode='r') as file:
     cont = file.read()
@@ -43,7 +43,7 @@ class Score(Turtle):
     #     self.write("GAME OVER", move=False, align="center", font=("Arial", 16, "bold"))
 
 
-=======
+
 ALIGNMENT = "center"
 FONT = ("Courier", 24, "normal")
 
@@ -70,4 +70,4 @@ class Scoreboard(Turtle):
         self.score += 1
         self.clear()
         self.update_scoreboard()
->>>>>>> bf14fe4e2baf23a780953c07aa79f66a7ba33bfb
+
